@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+    background-color: #d7d9db;
+}
+header{
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+}
+header h1{
+    padding-left: 1em;
+    padding-top: 1em;
+    color: black;
+}
+.headSection{
+    height: 30em;
+    width: 100%;
+    background-color: #00857a;
+}
+
+.headSection nav ul{
+    display: inline;
+    margin-left: 0;
+}
+.headSection nav ul li{
+    padding-top:1em;
+    float: left;
+    list-style-type: none;
+}
+.headSection nav ul li a{
+    color: white;
+    width: 25%;
+    overflow: hidden;
+    padding-left: 1em;
+    font-size: 18px;
+}
+
+.sectionPhoto img{
+    float: left;
+    margin-top:3em;
+    width: 100%;
+}
+
+.firstArticle{
+    margin-top: -2em;
+}
+article{
+    background-color: white;
+    width: 90%;
+    min-height: 20em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+article img{
+    padding-left: 1em;
+    padding-top: 1em;
+    margin-right: 1em;
+    height: 56px;
+    width: 56px;
+    float: left;
+}
+article h2{
+    padding-top: 1em;
+}
+article p{
+ 
+    padding-bottom: 1em;
+}
+article div{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+article div button{
+    background-color: #00857a;
+    border: black;
+    padding: 15px 32px;
+    width: 95%;
+}
+article div iframe{
+    height: 200px;
+}
+footer{
+    margin-top:2em;
+    display: inline-block;
+    height: 5em;
+    width: 100%;
+    background-color: white;
+}
+
+footer div{
+    width: 50%;
+    margin: 0 auto;
+}
+.informationPage{
+    height: 21em;
+}
+.registerArtikel article{
+    width: 100%;
+}
+
+@media only screen and (min-width: 1400px) {
+    header{
+        margin:0;
+        height:60px;
+    }
+    header h1{
+        display: inline;
+        font-size: 60px;
+        padding:0;
+        margin-left: 1em;
+    }
+    .headSection{
+        height: 50em;
+    }
+    .headSection nav ul{
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .sectionPhoto img{
+        margin-top: 1em;
+        height:40em;
+    }
+    article{
+        height: 25em;
+        width: 32%;
+        float: left;
+        margin-left: 2%;
+    }
+    .firstArticle{
+        margin: 0;
+    }
+    .registerArtikel article{
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    article div iframe{
+        width: 96%;
+        height: 17em;
+        
+    }
+    footer div{
+        width: 20%;
+    }
+    footer{
+        height: 3em;
+    }
+}
